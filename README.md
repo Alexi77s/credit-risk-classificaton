@@ -2,7 +2,7 @@
 
 
 ## Overview of the Analysis
-the purpose of the analysis is to determine if logitst regression can predict accurately on healthy vs high risk loans from orginal and oversampled data. 
+The purpose of the analysis is to determine if logistic regression can predict accurately on healthy vs high risk loans from orginal and oversampled data. 
 The data contains 77,536 loans with columns that pertains to loan size, interest rate, borrower income, debt to income ratio number of accounts, derotary marks, total debt and loan status. Our focus will be the loan staus and will train the data. 
 
 The stages of prediction will be processed with Machine Learning in preparign the data, separating data into labels and features, using train test split funtion to split into training and testing datasets. Also import Logistic Regression from SKLearns, instantiate the model, fit model with training data, make predictions and evaluate it with accuracy score, confusiont matrix, and classification report. 
